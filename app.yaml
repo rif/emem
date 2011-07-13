@@ -13,3 +13,7 @@ handlers:
   
 - url: /.*
   script: emem.py
+
+- url: /favicon\.ico
+  static_files: images/favicon.ico
+  upload: images/favicon\.ico
